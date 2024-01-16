@@ -1,3 +1,5 @@
+<?php 
+
 function blockBadBots()
 {
   $robotsTxt = explode(PHP_EOL, file_get_contents('robots.txt'));
